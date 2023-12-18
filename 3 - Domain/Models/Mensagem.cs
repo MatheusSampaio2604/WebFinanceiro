@@ -1,10 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace Domain.Models
 {
     [Table("Message")]
-    public class Message
+    public class Mensagem : Notifies
     {
         [Column("Id")]
         public int Id { get; set; }
@@ -22,9 +23,9 @@ namespace Domain.Models
         [Column("DataAlteracao")]
         public DateTime DataAlteracao { get; set; }
 
-        [ForeignKey("UsuarioIdentity")]
+        [ForeignKey("ApplicationUser")]
         [Column(Order = 1)]
-        public string UserId { get; set; }
-        public virtual UsuarioIdentity UsuarioIdentity { get; set; }
+        public required string UserId { get; set; }
+        public required virtual ApplicationUser ApplicationUser { get; set; }
     }
 }
