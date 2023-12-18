@@ -10,7 +10,7 @@ namespace Domain.Models
         public int Id { get; set; }
 
 
-        [ForeignKey("Usuarios")]
+        [ForeignKey("ApplicationUser")]
         [Column(Order = 1)]
         public required string UserId { get; set; }
 
@@ -30,6 +30,8 @@ namespace Domain.Models
         public required virtual IEnumerable<Valores> Valores { get; set; }
         public required virtual Acoes Acoes { get; set; }
         public required virtual Fii Fii { get; set; }
+
+        public required virtual ApplicationUser ApplicationUser { get; set; }
 
     }
 }

@@ -11,7 +11,7 @@ namespace Domain.Models
         public int Id { get; set; }
 
 
-        [ForeignKey("Amount")]
+        [ForeignKey("Quantidades")]
         [Column(Order = 1)]
         public int QuantidadeId { get; set; }
 
