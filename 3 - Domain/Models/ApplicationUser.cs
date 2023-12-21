@@ -6,12 +6,8 @@ namespace Domain.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        [Column("Cpf")]
         public required string CPF { get; set; }
-
-        [Column("TypeUser")]
         public TypeUser? TipoUsuario { get; set; }
 
-        
     }
 }

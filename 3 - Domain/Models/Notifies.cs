@@ -11,9 +11,9 @@ namespace Domain.Models
         {
             Notificacoes = new List<Notifies>();
         }
-
+        [NotMapped]
         public string NomePropriedade { get; set; }
-
+        [NotMapped]
         public string Mensagem { get; set; }
 
         public List<Notifies> Notificacoes { get; set; }

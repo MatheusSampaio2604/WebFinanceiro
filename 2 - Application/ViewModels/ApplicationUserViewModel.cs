@@ -9,5 +9,6 @@ namespace Application.ViewModels
         public required string CPF { get; set; }
 
         public TypeUser? TipoUsuario { get; set; }
+
     }
 }

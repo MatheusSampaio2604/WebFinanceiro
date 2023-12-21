@@ -18,6 +18,6 @@ namespace Application.ViewModels
         public DateTime DataCompra { get; set; }
 
 
-        public required virtual IEnumerable<QuantidadesViewModel> Quantidades { get; set; }
+        public required virtual QuantidadesViewModel Quantidades { get; set; }
     }
 }
