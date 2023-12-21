@@ -39,7 +39,7 @@ namespace WebApi.Controllers
         public async Task<List<Notifies>> Create(MensagemViewModel mensagemViewModel)
         {
             mensagemViewModel.UserId = await ReturnLoggedUser();
-            await _iMensagemApp.CreateAsync(mensagemViewModel);
+            await _iMensagemApp.CreateMessage(mensagemViewModel);
             return mensagemViewModel.Notificacoes;
         }
 
@@ -49,7 +49,7 @@ namespace WebApi.Controllers
         public async Task<List<Notifies>> Edit(MensagemViewModel mensagemViewModel)
         {
             //mensagemViewModel.UserId = await ReturnLoggedUser();
-            await _iMensagemApp.EditAsync(mensagemViewModel);
+            await _iMensagemApp.EditMessage(mensagemViewModel);
             return mensagemViewModel.Notificacoes;
         }
 
@@ -66,9 +66,9 @@ namespace WebApi.Controllers
         [Authorize]
         [Produces("Application/Json")]
         [HttpPost("Details")]
-        public async Task<MensagemViewModel> Details(Mensagem mensagem)
+        public async Task<MensagemViewModel> Details(int id)
         {
-            var data = await _iMensagemApp.FindOneAsync(mensagem.Id);
+            var data = await _iMensagemApp.FindOneAsync(id);
             return data;
         }
 
@@ -77,7 +77,8 @@ namespace WebApi.Controllers
         [HttpPost("FindAll")]
         public async Task<IEnumerable<MensagemViewModel>> FindAll()
         {
-            var data = await _iMensagemApp.FindAllAsync();
+           // var i = await ReturnLoggedUser();
+            var data = await _iMensagemApp.FindAllMessages();
             return data;
         }
 

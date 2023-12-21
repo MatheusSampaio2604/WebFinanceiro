@@ -67,7 +67,7 @@ namespace WebApi.Controllers
             {
                 UserName = login.Email,
                 Email = login.Email,
-                CPF = login.CPF,
+                CPF = login.CPF ?? string.Empty,
                 TipoUsuario = TypeUser.Comun,
             };
 

@@ -17,6 +17,7 @@ namespace Infra.IdentityContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly, x => x.Namespace == "Infra.MappingIdentity");
             modelBuilder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(x => x.Id);
             base.OnModelCreating(modelBuilder);
         }

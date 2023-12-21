@@ -4,28 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Models
 {
-    [Table("Message")]
+    [Table("Mensagem")]
     public class Mensagem : Notifies
     {
-        [Column("Id")]
         public int Id { get; set; }
-
-        [Column("Titulo")]
-        [MaxLength(255)]
+        public required string UserId { get; set; }
         public required string Titulo { get; set; }
-
-        [Column("Ativo")]
+        public DateTime DataCadastro { get; set; }
+        public DateTime DataAlteracao { get; set; }
         public bool Ativo { get; set; }
 
-        [Column("DataCadastro")]
-        public DateTime DataCadastro { get; set; }
-
-        [Column("DataAlteracao")]
-        public DateTime DataAlteracao { get; set; }
-
-        [ForeignKey("ApplicationUser")]
-        [Column(Order = 1)]
-        public required string UserId { get; set; }
-        public required virtual ApplicationUser ApplicationUser { get; set; }
     }
 }
