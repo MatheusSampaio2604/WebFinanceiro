@@ -58,20 +58,21 @@ namespace WebApi.Controllers
         [AllowAnonymous]
         [Produces("Application/Json")]
         [HttpPost("AddUserIdentity")]
-        public async Task<IActionResult> AddUserIdentity([FromBody] Login login)
+        public async Task<IActionResult> AddUserIdentity([FromBody] Register register)
         {
-            if (string.IsNullOrWhiteSpace(login.Email) || string.IsNullOrWhiteSpace(login.Senha))
-                return Unauthorized("Faltam Informações...");
+            if (string.IsNullOrWhiteSpace(register.Email) || string.IsNullOrWhiteSpace(register.Senha))
+                return Unauthorized("Faltaram Informações para continuar...");
 
-            ApplicationUser? user = new ApplicationUser()
+            ApplicationUser? user = new()
             {
-                UserName = login.Email,
-                Email = login.Email,
-                CPF = login.CPF ?? string.Empty,
+                UserName = register.Email,
+                Email = register.Email,
+                CPF = register.CPF ?? string.Empty,
+                PhoneNumber = register.Phone ?? string.Empty,
                 TipoUsuario = TypeUser.Comun,
             };
 
-            IdentityResult? result = await _userManager.CreateAsync(user, login.Senha);
+            IdentityResult? result = await _userManager.CreateAsync(user, register.Senha);
 
             if (result.Errors.Any())
                 return BadRequest(result.Errors);

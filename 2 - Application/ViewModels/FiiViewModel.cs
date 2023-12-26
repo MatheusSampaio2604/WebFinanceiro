@@ -10,6 +10,6 @@ namespace Application.ViewModels
         public int Id { get; set; }
         public required string Nome { get; set; }
 
-        public required virtual IEnumerable<QuantidadesViewModel> Quantidades { get; set; }
+        //public  virtual IEnumerable<QuantidadesViewModel>? Quantidades { get; set; }
     }
 }

@@ -10,6 +10,6 @@ namespace Domain.Models
         public required string Nome { get; set; }
 
 
-        public required virtual IEnumerable<Quantidades> Quantidades { get; set; }
+        public virtual IEnumerable<Quantidades>? Quantidades { get; set; }
     }
 }
