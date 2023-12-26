@@ -22,8 +22,8 @@ namespace WebApi.Controllers
             _iMensagemApp = iMensagemApp;
         }
 
-        //Recuperar usuario para recuperar id 
-        private async Task<string> ReturnLoggedUser()
+        //Recuperar usuario para recuperar id
+        private string ReturnLoggedUser()
         {
             if (User != null)
             {
@@ -38,7 +38,7 @@ namespace WebApi.Controllers
         [HttpPost("Create")]
         public async Task<List<Notifies>> Create(MensagemViewModel mensagemViewModel)
         {
-            mensagemViewModel.UserId = await ReturnLoggedUser();
+            mensagemViewModel.UserId = ReturnLoggedUser();
             await _iMensagemApp.CreateMessage(mensagemViewModel);
             return mensagemViewModel.Notificacoes;
         }
