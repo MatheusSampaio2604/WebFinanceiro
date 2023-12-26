@@ -4868,23 +4868,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CSP0832\\.nuget\\packages\\": {},
+    "C:\\Users\\mathe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
+      "projectUniqueName": "C:\\UTILS\\VS Projects\\Financeiro\\1- UI\\FinanceiroWeb.csproj",
       "projectName": "FinanceiroWeb",
-      "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
-      "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\obj\\",
+      "projectPath": "C:\\UTILS\\VS Projects\\Financeiro\\1- UI\\FinanceiroWeb.csproj",
+      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+      "outputPath": "C:\\UTILS\\VS Projects\\Financeiro\\1- UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4893,18 +4893,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj"
+            "C:\\UTILS\\VS Projects\\Financeiro\\2 - Application\\Application.csproj": {
+              "projectPath": "C:\\UTILS\\VS Projects\\Financeiro\\2 - Application\\Application.csproj"
             },
-            "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj"
+            "C:\\UTILS\\VS Projects\\Financeiro\\4 - Infra\\Infra.csproj": {
+              "projectPath": "C:\\UTILS\\VS Projects\\Financeiro\\4 - Infra\\Infra.csproj"
             }
           }
         }
