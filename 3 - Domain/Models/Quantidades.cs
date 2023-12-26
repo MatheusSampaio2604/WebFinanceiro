@@ -14,8 +14,8 @@ namespace Domain.Models
 
 
         public required virtual IEnumerable<Valores> Valores { get; set; }
-        public required virtual Acoes Acoes { get; set; }
-        public required virtual Fii Fii { get; set; }
+        public virtual Acoes? Acoes { get; set; }
+        public virtual Fii? Fii { get; set; }
 
     }
 }
