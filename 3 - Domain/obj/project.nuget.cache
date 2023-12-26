@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jB5gJWAfPBB2phIuUdq5fdZaxKG4PVQ0LpSR5nhP8pDPVW0YHMME7XrNDCq2I/iJl1rIORdJPaB12nckwpUSHQ==",
+  "dgSpecHash": "HoypS8PFy1ns06lXyWdUmoPNS7U3QtIYGjGpzwEUjssRAXi6WD9EOWoFIaznVvBxlyTSvVBfUDo0b7itKn1nBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,7 @@
     "C:\\Users\\CSP0832\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\CSP0832\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\CSP0832\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\CSP0832\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\CSP0832\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\CSP0832\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
