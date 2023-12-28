@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SLP4WQleaSOQHLOT0rZ8ihVa0t3UwbEO2hgjlSE+CxYXWBoIeIfwkEI8UXjw7RKbjwvYO6NV2S3mAl1WHIefxQ==",
+  "dgSpecHash": "45VmOjIbLeswkf77dR77CMlaVOAYm5myzQGuDqaCg/qfg6pUqgGhljpRT+ahwP7eM0qznjOW1s+oVVpqSe2HHg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CSP0832\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\CSP0832\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

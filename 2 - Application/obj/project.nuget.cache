@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DxIwXcC1rriHKs12PfKGaricfnNoel44pR9KmRyNEHXFSkLG+1wnQlagDptRzlSV5v9ob5lXVDa4yRdWIobJZw==",
+  "dgSpecHash": "96LCsaqh9zR4dJVzuInJyvcPlYrCb4r031yy5/fASRurmeWq4Aoa6DH34SvUpCI9QLr2btXAEe571y2T8BPEUQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CSP0832\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CSP0832\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

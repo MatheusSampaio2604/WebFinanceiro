@@ -9324,11 +9324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\obj\\",
+      "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9350,11 +9350,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj"
+            "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj"
             },
-            "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
-              "projectPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj"
+            "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj"
             }
           }
         }
