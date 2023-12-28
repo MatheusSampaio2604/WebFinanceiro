@@ -1,17 +1,28 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using FinanceiroWeb.Data;
+using Domain.Interfaces;
+using Application.Interfaces;
+using Application;
+using Infra.Context;
+using Infra.Repository;
+using Infra.IdentityContext;
+using FinanceiroWeb.Areas;
+using Domain.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.ConnectionStrings(builder.Configuration);
+
+//  MAPPER
+builder.Services.AddAutoMapperConfiguration();
+
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+builder.Services.DependenciesConfig();
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -33,6 +44,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
