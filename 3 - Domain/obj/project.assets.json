@@ -559,23 +559,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathe\\.nuget\\packages\\": {},
+    "C:\\Users\\CSP0832\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UTILS\\VS Projects\\Financeiro\\3 - Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\UTILS\\VS Projects\\Financeiro\\3 - Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\UTILS\\VS Projects\\Financeiro\\3 - Domain\\obj\\",
+      "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -584,6 +584,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
