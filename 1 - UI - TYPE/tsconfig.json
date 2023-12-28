@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../1 - UI - VUE/src/Conf.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

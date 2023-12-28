@@ -1,4 +1,4 @@
-import Host, { Port } from "../Conf";
+import Host, { Port } from "../../../1 - UI - VUE/src/Conf";
 
 export async function FetchGet(route: string) {
     try {

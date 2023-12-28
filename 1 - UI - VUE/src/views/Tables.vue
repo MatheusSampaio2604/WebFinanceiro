@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import { useTableData } from '../composables/useTableData'
 
 const {
