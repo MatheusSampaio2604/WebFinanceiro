@@ -68,7 +68,8 @@ namespace WebApi.Token
                 audience: this.Audience,
                 claims: claims,
                 expires: DateTime.UtcNow.AddMinutes(ExpiryInMinutes),
-                signingCredentials: new SigningCredentials(this.SecurityKey, SecurityAlgorithms.HmacSha256)
+                signingCredentials: new SigningCredentials(this.SecurityKey, SecurityAlgorithms.Aes128CbcHmacSha256)
+                //signingCredentials: new SigningCredentials(this.SecurityKey, SecurityAlgorithms.HmacSha256)
             );
 
             return new JwtToken(token);

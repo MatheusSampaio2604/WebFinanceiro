@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l7cChZ9PZwfqx76Yog9YUwVsFhKdpTdgOzzvMORJx3LshnoDyqC/ARaBWvQQt5zAFv6HVj0W970ZCgTTErQplQ==",
+  "dgSpecHash": "Lbfu6hpVbjGri0qRszUBWW5ZT2hEEuONIcUVZFaBqbllXE9V2hrsqSHtjYHhqbwFqsN0RXHaruAbL0DXnryKMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1 - WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CSP0832\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\CSP0832\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

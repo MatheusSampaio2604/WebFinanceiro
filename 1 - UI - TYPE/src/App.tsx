@@ -23,33 +23,18 @@ function App() {
     }, []);
 
 
-    // return loading ? (
-        //     <p className=" text-center text-danger">Failed to lead app</p>
-        // ) : 
-        return(
+    return (
         <>
-            
             <Routes>
-                <Route path="/login" element={<SignIn />} />
+                <Route
+                    path="/login"
+                    element={<SignIn />}
+                />
                 <Route
                     path="/"
-                    element={
-                        <Dashboard />
-
-                    }
+                    element={<Dashboard />}
                 />
-                {/* <Route
-                  path="/administration"
-                  element={
-                      <PrivateRoute >
-                          <Admin />
-                      </PrivateRoute>
-                  }
-                  /> */}
-
-
-
-
+                
             </Routes>
         </>
     );

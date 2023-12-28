@@ -18,6 +18,9 @@ namespace Application.ViewModels
         public DateTime DataCompra { get; set; }
 
 
+        public required string UserId { get; set; }
+        
+
         public required virtual QuantidadesViewModel Quantidades { get; set; }
     }
 }

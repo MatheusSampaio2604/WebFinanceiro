@@ -11,6 +11,7 @@ namespace Domain.Models
         public int QuantidadeId { get; set; }
         public decimal Valor { get; set; }
         public DateTime DataCompra { get; set; }
+        public required string UserId { get; set; }
 
 
         public required virtual Quantidades Quantidades { get; set; }

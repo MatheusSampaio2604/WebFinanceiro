@@ -12,7 +12,7 @@ namespace Application.ViewModels
 
         [PasswordPropertyText]
         [Required]
-        [MinLength(10)]
+        [MinLength(8)]
         public required string Senha { get; set; }
         public string? CPF { get; set; }
         public string? Phone { get; set; }

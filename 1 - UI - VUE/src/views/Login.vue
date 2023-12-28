@@ -43,6 +43,8 @@ function login() {
           <input
             v-model="email"
             type="email"
+            placeholder="E-mail"
+            autocomplete="current-text"
             class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
           >
         </label>
@@ -52,6 +54,8 @@ function login() {
           <input
             v-model="password"
             type="password"
+            placeholder="Senha"
+            autocomplete="current-password"
             class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
           >
         </label>
