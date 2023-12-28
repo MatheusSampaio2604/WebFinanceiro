@@ -1,0 +1,52 @@
+/****** Script do comando SelectTopNRows de SSMS  ******/
+SELECT *  FROM [Financeiro_Web].[dbo].[Valores]
+SELECT *  FROM [Financeiro_Web].[dbo].[Quantidade]
+
+
+select u.UserName AS Usuario, a.Nome as Acao, q.Quantidade, v.Valor, v.DataCompra from Quantidade q
+join valores v on v.QuatidadeId = q.Id
+join Acoes a on a.Id = q.AcaoId
+JOIN    [Financeiro_Identity].[dbo].[AspNetUsers] u ON u.Id = q.UserId
+
+SELECT    u.UserName AS Usuario,    a.Nome AS Acao,    SUM(q.Quantidade) AS [Total em Cotas],    SUM(v.Valor) AS [Total Investido],    MAX(v.DataCompra) AS [Ultima Compra]
+FROM    [Financeiro_Web].[dbo].[Quantidade] q
+JOIN    [Financeiro_Web].[dbo].[Valores] v ON v.QuatidadeId = q.Id
+JOIN    [Financeiro_Web].[dbo].[Acoes] a ON a.Id = q.AcaoId
+JOIN    [Financeiro_Identity].[dbo].[AspNetUsers] u ON u.Id = q.UserId
+GROUP BY    u.UserName, a.Nome;
+
+
+SELECT    COUNT(*) AS QuantidadeCompras
+FROM    Valores
+WHERE    MONTH(DataCompra) = 12 AND YEAR(DataCompra) = 2023;
+
+-- Crie uma tabela temporária de calendário para todos os meses do ano de interesse
+-- Crie uma tabela temporária de calendário para todos os meses do ano de interesse
+DECLARE @Calendario TABLE (
+    Mes INT
+);
+
+-- Preencha a tabela temporária com os meses de 1 a 12
+INSERT INTO @Calendario (Mes)
+VALUES (1), (2), (3), (4), (5), (6), (7), (8), (9), (10), (11), (12);
+
+-- Consulta para contar as compras para cada mês
+SELECT
+    C.Mes AS Mes,
+    ISNULL(COUNT(V.DataCompra), 0) AS QuantidadeCompras
+FROM
+    @Calendario C
+LEFT JOIN
+    Valores V ON MONTH(V.DataCompra) = C.Mes AND YEAR(V.DataCompra) = 2023
+GROUP BY
+    C.Mes
+ORDER BY
+    C.Mes;
+
+
+SELECT a.Nome, v.DataCompra FROM Valores v
+JOIN Quantidade q ON v.QuatidadeId = q.Id
+join Acoes a on q.AcaoId = a.Id 
+WHERE
+    q.AcaoId = 4;
+	

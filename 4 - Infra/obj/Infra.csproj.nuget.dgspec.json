@@ -4,14 +4,14 @@
     "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {}
   },
   "projects": {
-    "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
+    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\obj\\",
+        "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj"
+              "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj"
               }
             }
           }
