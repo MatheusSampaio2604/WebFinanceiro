@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "3 - Domain\Domain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "4 - Infra\Infra.csproj", "{1DA2026E-A071-425B-A7D8-18D923CD06E6}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ui", "UI\ui.esproj", "{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{1DA2026E-A071-425B-A7D8-18D923CD06E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA2026E-A071-425B-A7D8-18D923CD06E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA2026E-A071-425B-A7D8-18D923CD06E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F142AE6-705D-46DF-8EA4-8F99F2D0D721}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

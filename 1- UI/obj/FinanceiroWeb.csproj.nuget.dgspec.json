@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj": {}
+    "C:\\UTILS\\VS Projects\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj": {
+    "C:\\UTILS\\VS Projects\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
+        "projectUniqueName": "C:\\UTILS\\VS Projects\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
         "projectName": "FinanceiroWeb",
-        "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
-        "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\1- UI\\obj\\",
+        "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\1- UI\\FinanceiroWeb.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\1- UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj"
+              "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\Application.csproj": {
+                "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\Application.csproj"
               },
-              "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj"
+              "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
+                "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\Infra.csproj"
               }
             }
           }
@@ -80,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj": {
+    "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj",
+        "projectUniqueName": "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\2 - Application\\obj\\",
+        "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\2 - Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,15 +105,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj"
+              "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
+                "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj"
               }
             }
           }
@@ -166,24 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
+    "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\obj\\",
+        "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -192,7 +190,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -232,24 +229,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
+    "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\Infra.csproj",
-        "packagesPath": "C:\\Users\\CSP0832\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\4 - Infra\\obj\\",
+        "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\4 - Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSP0832\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -258,15 +255,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\CSP0832\\Desktop\\WebFinanceiro\\3 - Domain\\Domain.csproj"
+              "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj": {
+                "projectPath": "C:\\UTILS\\VS Projects\\WebFinanceiro\\3 - Domain\\Domain.csproj"
               }
             }
           }
@@ -318,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
