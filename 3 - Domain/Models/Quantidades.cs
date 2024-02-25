@@ -13,7 +13,7 @@ namespace Domain.Models
         public int? FiiId { get; set; }
 
 
-        public required virtual IEnumerable<Valores> Valores { get; set; }
+        public virtual IEnumerable<Valores>? Valores { get; set; }
         public virtual Acoes? Acoes { get; set; }
         public virtual Fii? Fii { get; set; }
 

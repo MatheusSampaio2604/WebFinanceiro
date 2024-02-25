@@ -24,13 +24,13 @@ namespace WebApi.Controllers
         {
             if (User != null)
             {
-                Claim? idUser = User.FindFirst("idUser");
+                Claim? idUser = User.FindFirst("Id");
                 return idUser.Value;
             }
             return string.Empty;
         }
 
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         [Authorize]
         [Produces("Application/Json")]
         [HttpGet("Index")]
@@ -54,10 +54,10 @@ namespace WebApi.Controllers
             { return BadRequest("Não foi possivel completar a solicitação..." + e.Message); }
         }
 
-        [ValidateAntiForgeryToken]
         [Authorize]
         [Produces("Application/Json")]
         [HttpGet("Details")]
+        //[ValidateAntiForgeryToken]
         public IActionResult Details(int id)
         {
             try

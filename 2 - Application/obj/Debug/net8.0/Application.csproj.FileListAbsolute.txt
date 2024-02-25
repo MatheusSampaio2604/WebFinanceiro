@@ -14,3 +14,19 @@ C:\Users\CSP0832\Desktop\WebFinanceiro\2 - Application\obj\Debug\net8.0\Applicat
 C:\Users\CSP0832\Desktop\WebFinanceiro\2 - Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\CSP0832\Desktop\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.pdb
 C:\Users\CSP0832\Desktop\WebFinanceiro\2 - Application\obj\Debug\net8.0\ref\Application.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\bin\Debug\net8.0\Application.deps.json
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\bin\Debug\net8.0\Application.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\bin\Debug\net8.0\Application.pdb
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\bin\Debug\net8.0\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\bin\Debug\net8.0\Domain.pdb
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\refint\Application.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Application.pdb
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\ref\Application.dll
+C:\UTILS\VS Projects\WebFinanceiro\2 - Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

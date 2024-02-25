@@ -1,0 +1,7 @@
+***In Project "Infra" From CMD***
+
+"Create"
+dotnet ef migrations add NomeDaMigracaoData --context ApplicationDbContext --startup-project "..\1 - WebApi"
+
+"Update"
+dotnet ef database update --context ApplicationDbContext --startup-project "..\1 - WebApi"

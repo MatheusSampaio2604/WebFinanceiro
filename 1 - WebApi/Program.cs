@@ -37,7 +37,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 
         ValidIssuer = "Testing.Security.Bearer",
         ValidAudience = "Testing.Security.Bearer",
-        IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-26042002")
+        IssuerSigningKey = JwtSecurityKey.Create("Secret_Key-26042002-TesterBeta21")
     };
 
     opt.Events = new JwtBearerEvents

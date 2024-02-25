@@ -21,8 +21,8 @@ namespace WebApi.Controllers
 
         [AllowAnonymous]
         [Produces("Application/Json")]
-        [HttpGet("Index")]
-        public async Task<IActionResult> Index()
+        [HttpGet("findAll")]
+        public async Task<IActionResult> FindAll()
         {
             var index = await _iAcoesApp.FindAllAsync();
             return Ok(index);

@@ -2,7 +2,7 @@ namespace Domain.Enum
 {
     public enum TypeUser
     {
-        Adminitrator = 1,
-        Comun = 2
+        Administrador = 1,
+        Comum = 2
     }
 }

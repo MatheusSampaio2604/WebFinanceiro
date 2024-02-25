@@ -11,3 +11,16 @@ C:\Users\CSP0832\Desktop\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.dll
 C:\Users\CSP0832\Desktop\WebFinanceiro\3 - Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\CSP0832\Desktop\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\CSP0832\Desktop\WebFinanceiro\3 - Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\bin\Debug\net8.0\Domain.deps.json
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\bin\Debug\net8.0\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\bin\Debug\net8.0\Domain.pdb
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\Domain.pdb
+C:\UTILS\VS Projects\WebFinanceiro\3 - Domain\obj\Debug\net8.0\ref\Domain.dll

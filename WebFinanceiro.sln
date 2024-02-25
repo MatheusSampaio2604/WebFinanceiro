@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "1 - WebApi\WebApi.csproj", "{BCE86638-28D2-4C3D-885D-4C1748288FD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanceiroWeb", "1- UI\FinanceiroWeb.csproj", "{9FF0B555-58F3-457D-8B3F-9BAF3FB024D5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "2 - Application\Application.csproj", "{0353515E-BC7C-4F79-A2B7-307CE9D7CDF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "3 - Domain\Domain.csproj", "{93AEC6BE-8A66-4406-B5FB-E7F9D5483B92}"
@@ -25,10 +23,6 @@ Global
 		{BCE86638-28D2-4C3D-885D-4C1748288FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE86638-28D2-4C3D-885D-4C1748288FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE86638-28D2-4C3D-885D-4C1748288FD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FF0B555-58F3-457D-8B3F-9BAF3FB024D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FF0B555-58F3-457D-8B3F-9BAF3FB024D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FF0B555-58F3-457D-8B3F-9BAF3FB024D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FF0B555-58F3-457D-8B3F-9BAF3FB024D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0353515E-BC7C-4F79-A2B7-307CE9D7CDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0353515E-BC7C-4F79-A2B7-307CE9D7CDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0353515E-BC7C-4F79-A2B7-307CE9D7CDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU

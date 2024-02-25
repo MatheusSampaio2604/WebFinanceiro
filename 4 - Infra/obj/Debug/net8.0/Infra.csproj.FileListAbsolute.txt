@@ -16,3 +16,21 @@ C:\Users\CSP0832\Desktop\WebFinanceiro\4 - Infra\obj\Debug\net8.0\refint\Infra.d
 C:\Users\CSP0832\Desktop\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.pdb
 C:\Users\CSP0832\Desktop\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.genruntimeconfig.cache
 C:\Users\CSP0832\Desktop\WebFinanceiro\4 - Infra\obj\Debug\net8.0\ref\Infra.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Infra.deps.json
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Infra.runtimeconfig.json
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Infra.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Infra.pdb
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Domain.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\bin\Debug\net8.0\Domain.pdb
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.csproj.AssemblyReference.cache
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.sourcelink.json
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\refint\Infra.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.pdb
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.genruntimeconfig.cache
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\ref\Infra.dll
+C:\UTILS\VS Projects\WebFinanceiro\4 - Infra\obj\Debug\net8.0\Infra.csproj.Up2Date

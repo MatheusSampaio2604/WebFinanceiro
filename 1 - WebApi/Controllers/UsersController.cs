@@ -37,16 +37,16 @@ namespace WebApi.Controllers
             Microsoft.AspNetCore.Identity.SignInResult? result = await _signInManager.PasswordSignInAsync(login.Email, login.Senha, false, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                ApplicationUser? userCurrent = await _userManager.FindByEmailAsync(login.Email);
-                string? idUser = userCurrent.Id;
+                ApplicationUser userCurrent = await _userManager.FindByEmailAsync(login.Email);
+                //string? idUser = userCurrent.Id;
 
                 JwtToken? token = new JwtTokenBuilder()
-                .AddSecurityKey(JwtSecurityKey.Create("Secret_Key_26042002"))
+                .AddSecurityKey(JwtSecurityKey.Create("Secret_Key-26042002-TesterBeta21"))
                 .AddSubject("Minhas Financas")
                 .AddIssuer("Testing.Security.Bearer")
                 .AddAudience("Testing.Security.Bearer")
-                .AddClaim("idUser", idUser)
-                .AddExpiry(5)
+                .AddClaim("Id", userCurrent.Id)
+                .AddExpiry(60)
                 .Builder();
 
                 return Ok(token.Value);
@@ -69,7 +69,7 @@ namespace WebApi.Controllers
                 Email = register.Email,
                 CPF = register.CPF ?? string.Empty,
                 PhoneNumber = register.Phone ?? string.Empty,
-                TipoUsuario = TypeUser.Comun,
+                TipoUsuario = TypeUser.Comum,
             };
 
             IdentityResult? result = await _userManager.CreateAsync(user, register.Senha);

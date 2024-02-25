@@ -17,7 +17,7 @@ namespace Infra.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.9")
+                .HasAnnotation("ProductVersion", "8.0.0")
                 .HasAnnotation("Proxies:ChangeTracking", false)
                 .HasAnnotation("Proxies:CheckEquality", false)
                 .HasAnnotation("Proxies:LazyLoading", true)
@@ -116,7 +116,6 @@ namespace Infra.Migrations
                         .HasColumnName("AcaoId");
 
                     b.Property<int?>("FiiId")
-                        .IsRequired()
                         .HasColumnType("int")
                         .HasColumnName("FiiId");
 
@@ -155,6 +154,10 @@ namespace Infra.Migrations
                         .HasColumnType("int")
                         .HasColumnName("QuatidadeId");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Valor")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("Valor");
@@ -174,9 +177,7 @@ namespace Infra.Migrations
 
                     b.HasOne("Domain.Models.Fii", "Fii")
                         .WithMany("Quantidades")
-                        .HasForeignKey("FiiId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FiiId");
 
                     b.Navigation("Acoes");
 

@@ -86,12 +86,12 @@ namespace Infra.Repository
         {
             try
             {
-                T obj = await DbSet.FindAsync(id).ConfigureAwait(false);
-                if (Context.Entry(obj).State == EntityState.Unchanged)
-                {
-                    Context.Entry(obj).State = EntityState.Detached;
-                    obj = await DbSet.FindAsync(id).ConfigureAwait(false);
-                }
+                var obj = await DbSet.FindAsync(id);
+                //if (Context.Entry(obj).State == EntityState.Unchanged)
+                //{
+                //    Context.Entry(obj).State = EntityState.Detached;
+                //    obj = await DbSet.FindAsync(id);
+                //}
                 return obj;
             }
             catch (Exception ex)

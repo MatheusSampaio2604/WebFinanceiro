@@ -1,9 +1,12 @@
 using Application.AutoMapper;
 using AutoMapper;
 
-namespace WebApi.Areas{
-    public static class AutoMapperConfig{
-        public static IServiceCollection AddAutoMapperConfiguration(this IServiceCollection services){
+namespace WebApi.Areas
+{
+    public static class AutoMapperConfig
+    {
+        public static IServiceCollection AddAutoMapperConfiguration(this IServiceCollection services)
+        {
             MapperConfiguration mapperConfiguration = new(mc => { mc.AddProfile(new AutoMapperProfile()); });
             IMapper mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
